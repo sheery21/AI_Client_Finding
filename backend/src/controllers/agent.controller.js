@@ -1,4 +1,4 @@
-import { searchBusinesses } from "../services/overpass.service.js";
+import { searchBusinesses } from "../services/tavily.service.js";
 
 export const searchBusinessesController = async (req, res) => {
   try {
